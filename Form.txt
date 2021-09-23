@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<body style="background-color: green">
+    <form action="results.html" method="GET" enctype="multipart/form-data" >
+     <fieldset style="background-color: green">
+        <h1 align="center">USER FORM</h1>
+          <table>
+            <tr>
+              <td width="200px">FIRST NAME</td>
+              <td><input type="text" name="Name" id="name"required></td>
+            </tr>
+            <tr>
+              <td>PASSWORD</td>
+              <td><input type="text" name="Password"required></td>
+            </tr>
+            <tr><td>GENDER</td>
+                <td><input type="radio" name="Gender" value="Male" /> Male
+                    <input type="radio" name="Gender" value="Female" /> Female</td>
+            </tr>
+            <tr>
+              <td>ADDRESS</td>
+              <td><textarea id="addres" name="Addres"></textarea></td>
+            </tr>
+            <tr>
+              <td>D.O.B</td>
+              <td><input type="date" name="D.O.B" id="D.O.B"></td>
+            </tr>
+            <tr>
+                <td>SELECT GAMES</td>
+                <td><input type="checkbox" name="Hockey" id="Hockey">Hockey
+                   <input type="checkbox" name="Football" id="Football">Football
+                   <input type="checkbox" name="Cricket" id="Football">Cricket
+                   <input type="checkbox" name="VolleyBall" id="Football">VolleyBall
+               </td>
+            </tr>
+            <tr>
+              <td>MARITAL STATUS</td>
+              <td><input type="radio" name="Status" value="Married" /> Married
+                  <input type="radio" name="Status" value="Unmarried" /> Unmarried</td>
+            </tr>
+            <tr>
+            <td></td>
+              <td>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="accept" id="accept"> I accept this agreement</td>
+            </tr>
+          </table>
+      </fieldset>
+    </form>
+  </body>
+</head>
+</html>
